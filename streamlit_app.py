@@ -5,7 +5,7 @@ import time
 import openai
 
 # GPT 키 불러오기
-openai.api_key = st.secrets["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"]
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 st.set_page_config(page_title="AI 하이브리드 학습 플랫폼", layout="centered")
 st.title("🤖 AI 맞춤형 학습 대시보드 (강화학습 + GPT 튜터)")
